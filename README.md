@@ -6,4 +6,5 @@ An opinionated boilerplate for spinnng up playground environments
 
 - Vite
 - React + TypeScript
+- Tailwind CSS + clsx
 - Prettier
