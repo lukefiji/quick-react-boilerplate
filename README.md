@@ -1,10 +1,13 @@
 # Quick React Boilerplate
 
-An opinionated boilerplate for spinnng up playground environments
+An opinionated boilerplate made for quick experimentation
 
 ## Features
 
 - Vite
-- React + TypeScript
-- Tailwind CSS + clsx
+- TypeScript
+- React
+- Tailwind CSS + `clsx`
 - Prettier
+  - `prettier-plugin-organize-imports`
+  - `prettier-plugin-tailwindcss`
