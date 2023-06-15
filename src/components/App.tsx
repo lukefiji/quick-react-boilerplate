@@ -1,3 +1,4 @@
+import clsxMerge from '@/utils/clsxMerge';
 import { useState } from 'react';
 
 function App() {
@@ -9,7 +10,13 @@ function App() {
         <h1 className="text-center text-2xl font-bold">
           Quick React Boilerplate
         </h1>
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button
+          onClick={() => setCount((count) => count + 1)}
+          className={clsxMerge([
+            'border-2 border-solid border-gray-300',
+            count > 0 && 'border-black',
+          ])}
+        >
           Count is {count}
         </button>
         <p className="text-center">Delete this and create your application!</p>
