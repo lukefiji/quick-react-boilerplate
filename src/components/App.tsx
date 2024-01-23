@@ -1,4 +1,4 @@
-import clsxMerge from '@/utils/clsxMerge';
+import { cn } from '@/lib/utils';
 import { useState } from 'react';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         </h1>
         <button
           onClick={() => setCount((count) => count + 1)}
-          className={clsxMerge([
+          className={cn([
             'border-2 border-solid border-gray-300',
             count > 0 && 'border-black',
           ])}
