@@ -11,3 +11,5 @@ An opinionated boilerplate made for quick experimentation
 - [Prettier](https://github.com/prettier/prettier)
   - [`prettier-plugin-organize-imports`](https://github.com/simonhaenisch/prettier-plugin-organize-imports)
   - [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+- [Vitest](https://vitest.dev/)
+  - [React Testing Library](https://github.com/testing-library/react-testing-library)
