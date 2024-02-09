@@ -15,5 +15,12 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // Enforces `type` keyword when importing types
+    '@typescript-eslint/consistent-type-imports': [
+      'warn',
+      {
+        fixStyle: 'inline-type-imports',
+      },
+    ],
   },
 };

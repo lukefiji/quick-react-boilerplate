@@ -23,7 +23,13 @@
     /* Import aliases */
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+
+    /* Types */
+    "types": [
+      // Vitest global types to match Jest's experience
+      "vitest/globals"
+    ]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

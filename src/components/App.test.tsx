@@ -1,5 +1,4 @@
 import { render, screen } from '@testing-library/react';
-
 import App from './App';
 
 describe('App', () => {
@@ -7,7 +6,7 @@ describe('App', () => {
     render(<App />);
 
     expect(screen.getByRole('heading')).toHaveTextContent(
-      'Quick React Boilerplate'
+      'Quick React Boilerplate',
     );
   });
 });
